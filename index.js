@@ -1,7 +1,7 @@
 import inquirer from "inquirer";
 let condition = true;
 while (condition) {
-    let array = ["Bilal", "Hamza"];
+    let array = ["apple", "mango", "orange"];
     let ans = await inquirer.prompt({
         name: "Select",
         type: "list",

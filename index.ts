@@ -4,7 +4,7 @@ let condition = true
 while (condition) {
   
 
-let array: string[] = ["Bilal", "Hamza"]
+let array: string[] = ["apple", "mango","orange"]
 let ans = await inquirer.prompt(
   {
   name: "Select",
